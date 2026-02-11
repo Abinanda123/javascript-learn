@@ -9,7 +9,7 @@ head.next = new node(2);
 head.next.next = new node(3);
 head.next.next.next = null;
 
- const convertToArray = (head) => {
+const convertToArray = (head) => {
     const result = [];
     let current = head;
     while (current !== null){
@@ -17,5 +17,5 @@ head.next.next.next = null;
         current = current.next;
     }
     return result;
- }
+}
  console.log(convertToArray(head));
